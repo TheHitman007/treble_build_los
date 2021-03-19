@@ -51,7 +51,6 @@ git am $BL/patches/0001-Make-broken-copy-headers-the-default.patch
 cd ../..
 cd frameworks/base
 git am $BL/patches/0001-UI-Revive-navbar-layout-tuning-via-sysui_nav_bar-tun.patch
-git am $BL/patches/0001-UI-Disable-wallpaper-zoom.patch
 git am $BL/patches/0001-Disable-vendor-mismatch-warning.patch
 cd ../..
 cd lineage-sdk
