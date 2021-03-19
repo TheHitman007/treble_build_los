@@ -124,8 +124,6 @@ buildVariant() {
     mv $OUT/system.img ~/build-output/lineage-18.1-$BUILD_DATE-UNOFFICIAL-${1}.img
 }
 
-buildVariant treble_arm_bvS
-buildVariant treble_a64_bvS
 buildVariant treble_arm64_bvS
 ls ~/build-output | grep 'lineage'
 
