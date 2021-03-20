@@ -50,12 +50,12 @@ cd build/make
 git am $BL/patches/0001-Make-broken-copy-headers-the-default.patch
 cd ../..
 cd frameworks/base
+git am $BL/patches/0001-Move-network-indicator.patch
+git am $BL/patches/0001-Try-to-fix-align-of-network-indicator-v2.patch
+git am $BL/patches/0001-Qspanel-don-t-show-the-annoying-build-number.patch
+git am $BL/patches/0001-Use-Cloudflare-DNS-as-the-default-fallback.patch
 git am $BL/patches/0001-UI-Revive-navbar-layout-tuning-via-sysui_nav_bar-tun.patch
 git am $BL/patches/0001-Disable-vendor-mismatch-warning.patch
-git am $BL/patches/0085-move-network-indicator.patch
-git am $BL/patches/0090-try-to-fix-align-of-network-indicator-v2.patch
-git am $BL/patches/0131-qspanel-don-t-show-the-annoying-build-number.patch
-git am $BL/patches/0151-use-Cloudflare-DNS-as-the-default-fallback.patch
 cd ../..
 cd lineage-sdk
 git am $BL/patches/0001-sdk-Invert-per-app-stretch-to-fullscreen.patch
